@@ -1,4 +1,5 @@
 import { InputTitle } from "./inputDoc";
+import { BlogList } from "./bloglist";
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <h1>ログイン</h1>
       <InputTitle />
+      <BlogList />
     </div>
   );
 }
